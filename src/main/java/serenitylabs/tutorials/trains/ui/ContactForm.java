@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class ContactForm {
     public static final Target CONTACT_US = Target.the("Contact Us Link")
-                                                  .located(By.linkText("Contact us about the TFL Oyster app"));
+                                                  .located(By.linkText("Contact us about Oyster"));
 
     public static final Target TITLE = Target.the("Title dropdown")
             .located(By.name("PersonalDetails.Title"));

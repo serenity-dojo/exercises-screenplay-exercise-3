@@ -39,6 +39,7 @@ public class WhenPlanningATrip {
         );
     }
 
+
     @Test
     public void the_TFL_page_title_should_be_visible() {
 
